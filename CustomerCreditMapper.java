@@ -23,4 +23,6 @@ public interface CustomerCreditMapper {
     void batchInsert(@Param("credits") List<CustomerCreditPo> credits23);
 
     int test11();
+
+    int test22();
 }
