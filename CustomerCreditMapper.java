@@ -20,7 +20,7 @@ public interface CustomerCreditMapper {
 
     List<CustomerCreditPo> selectByCodes(@Param("sapCusCodes") List<String> sapCusCodes);
 
-    void batchInsert(@Param("credits") List<CustomerCreditPo> credits);
+    void batchInsert(@Param("credits") List<CustomerCreditPo> credits23);
 
     int test11();
 }
