@@ -20,5 +20,7 @@ public interface CustomerCreditMapper {
 
     List<CustomerCreditPo> selectByCodes(@Param("sapCusCodes") List<String> sapCusCodes);
 
-    void batchInsert(@Param("credits") List<CustomerCreditPo> credits);
+    void batchInsert(@Param("credits") List<CustomerCreditPo> credits1);
+
+    int test22();
 }
